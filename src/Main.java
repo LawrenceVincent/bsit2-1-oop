@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -7,8 +8,7 @@ public class Main {
         int choice = -1;
 
         while (choice != 0) {
-            System.out.println("\n=" +
-                    "=~=~= LIBRARY INFORMATION SYSTEM =~=~=");
+            System.out.println("\n===== LIBRARY INFORMATION SYSTEM =====");
             System.out.println("1. Add a book");
             System.out.println("2. List all books");
             System.out.println("3. Borrow a book");
